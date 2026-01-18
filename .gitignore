@@ -1,0 +1,91 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.nvenv/
+nvenv/
+env/
+ENV/
+.conda/
+
+# Environment and secrets
+.env
+.env.*
+*.env
+*.secret
+.secrets/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+.wheels/
+
+# Test and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pytype/
+ruff_cache/
+.ruff_cache/
+
+# Type checkers / linters
+.pyright/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Caches
+.cache/
+**/.DS_Store
+Thumbs.db
+
+# Logs and runtime
+logs/
+*.log
+*.pid
+*.pid.lock
+
+# Local data and artifacts
+/data/
+/tmp/
+
+# Qdrant local storage
+qdrant_storage/
+
+# Documentation
+docs/
+
+# Misc project paths
+path/
+
+# SQLite and local DBs
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE/editor files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Icon?
+
+# Node/npm (if present in submodules/tools)
+node_modules/
+.npm/
+
+# Project specific
+.qdrant/
+
+# Python version managers
+.python-version
